@@ -1,0 +1,32 @@
+{
+  "name": "skylark-domx-plugins-sandboxs",
+  "description": "The skylark sandbox plugins library for dom api extension",
+  "version": "0.9.0",
+  "keywords": [
+    "skylark",
+    "skylarkui",
+    "swt",
+    "widget"
+  ],
+  "homepage": "https://github.com/skylark-domx-plugins/skylark-domx-plugins-sandboxs/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "slib build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-domx-plugins/skylark-domx-plugins-sandboxs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-domx-plugins/skylark-domx-plugins-sandboxs/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "skylark-domx": "git+https://github.com/skylark-domx/skylark-domx.git#master",
+    "skylark-domx-plugins-base": "git+https://github.com/skylark-domx-plugins/skylark-domx-plugins-base.git#master",
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}

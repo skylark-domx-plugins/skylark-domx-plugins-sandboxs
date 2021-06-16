@@ -22,7 +22,7 @@ define([
 
     klassName: "Sandbox",
 
-    pluginName : "domx.sandboxs.sandbox",
+    pluginName : "lark.sandboxs.sandbox",
 
     options : {
       name: "Output",

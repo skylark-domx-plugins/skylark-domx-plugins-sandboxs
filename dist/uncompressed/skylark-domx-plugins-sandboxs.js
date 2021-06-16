@@ -115,7 +115,7 @@ define('skylark-domx-plugins-sandboxs/sandbox',[
 
     klassName: "Sandbox",
 
-    pluginName : "domx.sandboxs.sandbox",
+    pluginName : "lark.sandboxs.sandbox",
 
     options : {
       name: "Output",

@@ -87,10 +87,14 @@
 })(function(define,require) {
 
 define('skylark-domx-plugins-sandboxs/sandboxs',[
-	"skylark-langx-ns"
-],function(skylark){
-	return skylark.attach("domx.plugins.popups");
+    "skylark-domx-plugins-base/plugins"
+], function(plugins) {
+    'use strict';
+
+	return plugins.sandboxs = {};
 });
+
+
 define('skylark-domx-plugins-sandboxs/sandbox',[
     "skylark-langx",
     "skylark-domx-browser",

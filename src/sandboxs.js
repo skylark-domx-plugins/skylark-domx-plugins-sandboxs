@@ -1,5 +1,8 @@
 define([
-	"skylark-langx-ns"
-],function(skylark){
-	return skylark.attach("domx.plugins.popups");
+    "skylark-domx-plugins-base/plugins"
+], function(plugins) {
+    'use strict';
+
+	return plugins.sandboxs = {};
 });
+

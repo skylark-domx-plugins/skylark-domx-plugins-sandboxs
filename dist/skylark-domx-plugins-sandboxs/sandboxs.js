@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx-plugins/skylark-domx-plugins-sandboxs/
  * @license MIT
  */
-define(["skylark-langx-ns"],function(n){return n.attach("domx.plugins.popups")});
+define(["skylark-domx-plugins-base/plugins"],function(s){"use strict";return s.sandboxs={}});
 //# sourceMappingURL=sourcemaps/sandboxs.js.map
